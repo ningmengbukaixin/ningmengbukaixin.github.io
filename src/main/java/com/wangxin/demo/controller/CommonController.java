@@ -10,7 +10,7 @@ public class CommonController {
     @RequestMapping({"index","","/"})
     public ModelAndView index(){
         ModelAndView mv = new ModelAndView();
-        mv.setViewName("index");
+        mv.setViewName("master/index");
         return mv;
     }
 }
