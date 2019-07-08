@@ -7,6 +7,6 @@ import java.util.List;
 
 public interface UserinfoMapper {
     List<Userinfo> findAll();
-    List<Userinfo> findList();
+    List<Userinfo> findList(Userinfo userinfo);
     List<Userinfo> findMap(@Param("map") Object o);
 }

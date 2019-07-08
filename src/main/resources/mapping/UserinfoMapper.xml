@@ -21,5 +21,8 @@
     select <include refid="Base_Column_List"/> from userinfo
    where id=#{map.id}
   </select>
+  <select id="findList" resultType="com.wangxin.demo.pojo.Userinfo">
+
+  </select>
 
 </mapper>
