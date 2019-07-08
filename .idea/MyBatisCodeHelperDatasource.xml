@@ -18,8 +18,6 @@
                   <option name="javaMapperPath" value="$PROJECT_DIR$/src/main/java" />
                   <option name="javaModelPacakge" value="com.wangxin.demo.pojo" />
                   <option name="javaModelPath" value="$PROJECT_DIR$/src/main/java" />
-                  <option name="javaServiceInterfacePath" value="$PROJECT_DIR$/src/main/java" />
-                  <option name="javaServicePath" value="$PROJECT_DIR$/src/main/java" />
                   <option name="xmlPackage" value="mapping" />
                   <option name="xmlPath" value="$PROJECT_DIR$/src/main/resources" />
                 </UserPackageAndPathInfoByModule>
@@ -29,6 +27,16 @@
         </option>
         <option name="tableGenerateConfigs">
           <map>
+            <entry key="demo:admin">
+              <value>
+                <TableGenerateConfig>
+                  <option name="generatedKey" value="id" />
+                  <option name="javaModelName" value="Admin" />
+                  <option name="moduleName" value="ssmdemo" />
+                  <option name="useActualColumnName" value="false" />
+                </TableGenerateConfig>
+              </value>
+            </entry>
             <entry key="demo:userinfo">
               <value>
                 <TableGenerateConfig>
